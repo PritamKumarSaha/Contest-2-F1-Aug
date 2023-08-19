@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+        <nav class="navbar">
+            <div class="navitem">
+                <div class="left">
+                    <a href="#">Library System</p>
+                </div>
+                <div class="right">
+                    <a href="#section-1">Books</a>
+                    <a href="#section-2">Registor</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Logout</a>
+                </div>
+             </div>
+        </nav>
+        <!-- books section -->
+        <section id="section-1">
+            <div>
+                <h1>Books</h1>
+            </div>
+            <table class="table" border="1px solid black">
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">Book Title 1</a>
+                        <div>
+                            <p>Publication Date: 2000</p>
+                            <p>Page Count: 250</p>
+                            <p>ISBN: 123-4567890123</p>
+                        </div>
+                    </td>
+                    <td>Author Name 1</td>
+                    <td>Genere 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="#">Book Title 2</a>
+                        <div>
+                            <p>Publication Date: 2005</p>
+                            <p>Page Count: 300</p>
+                            <p>ISBN: 123-4567890456</p>
+                        </div>
+                    </td>
+                    <td>Author Name 2</td>
+                    <td>Genere 2</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="#">Book Title 3</a>
+                        <div>
+                            <p>Publication Date: 2010</p>
+                            <p>Page Count: 350</p>
+                            <p>ISBN: 123-4567890789</p>
+                        </div>
+                    </td>
+                    <td>Author Name 3</td>
+                    <td>Genere 3</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="#">Book Title 4</a>
+                        <div>
+                            <p>Publication Date: 2010</p>
+                            <p>Page Count: 550</p>
+                            <p>ISBN: 123-4567890111</p>
+                        </div>
+                    </td>
+                    <td>Author Name 4</td>
+                    <td>Genere 4</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <a href="#">Book Title 5</a>
+                        <div>
+                            <p>Publication Date: 2012</p>
+                            <p>Page Count: 1050</p>
+                            <p>ISBN: 123-4567890333</p>
+                        </div>
+                    </td>
+                    <td>Author Name 5</td>
+                    <td>Genere 5</td>
+                    <td>Available</td>
+                </tr>
+
+            </table>
+        </section>
+<!-- /registor section -->
+        <section id="section-2">
+            <div><h1 class="registor">Register</h1></div>
+            <div style="background-color: transparent;">
+                <form method="post" style="background-color: transparent;">
+                    <label for="first-name"><b>First Name</b></label>
+                    <br>
+                    <input type="text" id="first-name" required>
+                    <br>
+                    <label for="last-name"><b>Last Name</b></label>
+                    <br>
+                    <input type="text" id="last-name" required>
+                    <br>
+                    <label for="dob"><b>Date of Birth</b></label>
+                    <br>
+                    <input type="date" id="dob" required>
+                    <br>
+                    <label for="age"><b>Age</b></label>
+                    <br>
+                    <input type="number" id="age" min="5" max="100" required>
+                    <br>
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="email" id="email" required>
+                    <br>
+                    <label for="password"><b>Password</b></label>
+                    <br>
+                    <input type="password" id="password" required>
+                    <br>
+                    <label for="confirm-password"><b>Confirm Password</b></label>
+                    <br>
+                    <input type="password" id="confirm-password" required>
+                    <br>
+                    <br>
+                    <input type="submit">
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </section>
+    </body>
+
+</html>
